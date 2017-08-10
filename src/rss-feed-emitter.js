@@ -492,7 +492,7 @@ class RssFeedEmitter extends TinyEmitter {
         url: feedUrl,
         headers: {
           'user-agent': this._userAgent,
-          'accept': 'text/html,application/xhtml+xml,application/xml'
+          'accept': 'application/rss+xml,text/xml,text/html,application/xhtml+xml,application/xml'
         }
       } )
       // Run this once we get a response from the server.
