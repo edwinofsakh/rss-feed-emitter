@@ -2,7 +2,7 @@
   "name": "rss-feed-emitter",
   "version": "1.0.6",
   "description": "Super RSS News Feed aggregator written in Node.js and ES6",
-  "main": "lib/rss-feed-emitter.js",
+  "main": "src/rss-feed-emitter.js",
   "scripts": {
     "coverage": "babel-node node_modules/.bin/babel-istanbul cover _mocha -- --timeout 30000 test/**/*.spec.js",
     "build": "babel src --out-dir dist",
